@@ -1,5 +1,7 @@
 # Learn AKS – Doc 1
 ## Create a Resource Group
+<code>az group create -l eastus2 -n AKS-rg</code>
+
 Resource group name: AKS-rg
 Location: East US2
 
