@@ -17,7 +17,7 @@ Example: resource group name is AKS-rg and Azure Kubernetes Cluster name is aksd
 Output:
 Merged "aksdemo001" as current context in C:\Users\MAITREY\.kube\config
 
-# List out the existing Kubernetes worker nodes
+## List out the existing Kubernetes worker nodes
 
 <code>kubectl get nodes</code>
 Or 
@@ -25,7 +25,7 @@ Or
 Or
 <code>kubectl get node</code>
  
-# List all the available namespaces
+## List all the available namespaces
 
 The namespace is a logical grouping of kubernetes resources like pods and deployments. By default Kubernetes gives following 4 types of namespaces:
 1. default - it is used in small environments and used when no other namespace is specified
