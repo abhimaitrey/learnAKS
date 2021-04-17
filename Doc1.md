@@ -25,5 +25,19 @@ Or
 Or
 <code>kubectl get node</code>
  
+# List all the available namespaces
+
+The namespace is a logical grouping of kubernetes resources like pods and deployments. By default Kubernetes gives following 4 types of namespaces:
+1. default - it is used in small environments and used when no other namespace is specified
+2. kube-system - it is reserved for core resources and ideally should not deploy your own applications into it.
+3. kube-public - generally not used but can be used for resources that is to be visible across the whole cluster and can also be viewed by any user.
+4. kube-node-lease - for third party device monitoring plugins
+
+<code>kubectl get ns</code> 
+Or
+<code>kubectl get namespaces</code>
+
+* Please note : you also can create a namespace as per the requirement.
+
 
 
