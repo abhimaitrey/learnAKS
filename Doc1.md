@@ -25,7 +25,7 @@ Or
 Or
 ```kubectl get node```
  
-## List all the available namespaces :rocket:
+## List all the available namespaces :bookmark_tabs:
 
 The namespace is a logical grouping of kubernetes resources like pods and deployments. By default Kubernetes gives following 4 types of namespaces:
 
